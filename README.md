@@ -4,7 +4,7 @@ This GitHub repository contains a script written in the R programming language t
 
 The script assumes that all neceassary files are located in the users current working directory
 
-The first block of code reads in a file containing subject_id information and a file containing subject activity information.  The code then combines these two files into a single file using the cbind function
+The 1st block of code reads in a file containing subject_id information and a file containing subject activity information.  The code then combines these two files into a single file using the cbind function
 
 The 2nd block of code reads in the X_train file containing numeric values for all variables across each user/activity combination.  A file containing variable names is then read in and the variable names are extracted and used to replace the default variable names in X_train.  Finally, the dataframe generated in the first block of is appended to X_train in order to generate a dataframe named train.
 
