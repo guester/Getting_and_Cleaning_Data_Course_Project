@@ -2,16 +2,13 @@ Codebook:
 
 The first variable has the name "subject_id" and contains unique subject identifiers for the 30 subjects in the data set (1-30).
 
-The second variable has the name "activity" and contains one of six activity descriptions (WALKING
-, WALKING_UPSTAIRS
-, WALKING_DOWNSTAIRS
-, SITTING
-, STANDING
-, LAYING)
+The second variable has the name "activity" and contains one of six activity descriptions (WALKING, WALKING_UPSTAIRS, 
+WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-The remaining variable names are all derived from the features.txt file.  The feature labels in this file contained many abbreviations.  In order to obtain more 
-turn these labels into descriptive variable names, each abbreviation was expanded to the full-length form e.g. "Acc" was expanded to "Acceleration" and "std" was
-expanded to "standard deviation" etc.
+The remaining variable names are all derived from the features.txt file.  The feature labels in this file contained many
+abbreviations.  In order to turn these labels into more descriptive variable names, each abbreviation was expanded
+to the full-length form e.g. "Acc" was expanded to "Acceleration" and "std" was expanded to "standard deviation" etc.
 
-The final tidy data set contains the mean value of the original variables grouped by subject_id and activity.  Therefore, for the final data set all of the variables
-variable names (excluding subject_id and activity) were modified to begin with the character string "mean of".
+The final tidy data set contains the mean value of the original variables grouped by subject_id and activity.  Therefore, for 
+the final data set all of the variable names (excluding subject_id and activity) were modified to begin with the
+character string "mean of".
