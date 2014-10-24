@@ -22,7 +22,9 @@ The 9th block of code replaces abbreviations and other non-descriptive character
 
 The 10th block of code generates a new dataframe named tidy_averages that contains averages of each variable grouped by user_id and activity.
 
-The 11th block of code changes the variable names of tidy_averages to an appropriate descriptive name 
+The 11th block of code orders the data.table based on subject_id in ascending order.
+
+The 12th block of code changes the variable names of tidy_averages to an appropriate descriptive name 
 
 
 
