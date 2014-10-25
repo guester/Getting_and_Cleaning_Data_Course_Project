@@ -25,7 +25,7 @@ features <- features$V2
 names(X_test) <- features
 test <- cbind(y,X_test)
 
-#Code Block 5: Combine test and train dataframes into a sings dataframe
+#Code Block 5: Combine test and train dataframes into a single dataframe
 complete <- rbind(train, test)
 
 #Code Block 6: Renaming columns 1 and 2 to something descriptive
